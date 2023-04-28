@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jitpack.io" />
+      <option name="name" value="jitpack.io" />
+      <option name="url" value="https://jitpack.io" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="uboxol-group" />
+      <option name="name" value="uboxol-group" />
+      <option name="url" value="http://maven.appint.cn/nexus/repository/uboxol-group/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="spring-libs-snapshot" />
+      <option name="name" value="Spring Snapshot Repository" />
+      <option name="url" value="https://repo.spring.io/libs-snapshot" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="uboxol-releases" />
+      <option name="name" value="uboxol-releases" />
+      <option name="url" value="http://maven.appint.cn/nexus/repository/uboxol-releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="uboxol-thirdparty" />
+      <option name="name" value="uboxol-thirdparty" />
+      <option name="url" value="http://maven.appint.cn/nexus/repository/uboxol-thirdparty/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="uboxol-snapshots" />
+      <option name="name" value="uboxol-snapshots" />
+      <option name="url" value="http://maven.appint.cn/nexus/repository/uboxol-snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Group" />
+      <option name="name" value="Group" />
+      <option name="url" value="http://maven.appint.cn/nexus/repository/maven-public/" />
+    </remote-repository>
+  </component>
+</project>

@@ -1,0 +1,218 @@
+<script>
+
+    Com_Parameter.event["submit"].push(function(){
+        //售货机分成规则
+        $("[name='extendDataFormInfo.value(shj_divideRuleDetail."+ 0 +".shj_commissionSaleAmountFrom)']").val(0);
+        $("[name='extendDataFormInfo.value(shj_divideRuleDetail."+ 0 +".shj_commissionSaleAmountTo)']").val(10000000);
+        $("[name='extendDataFormInfo.value(shj_divideRuleDetail."+ 0 +".shj_commissionFeePercent)']").val(15);
+
+        //智能货柜分成规则
+        $("[name='extendDataFormInfo.value(znhg_divideRuleDetail."+ 0 +".znhg_commissionSaleAmountFrom)']").val(0);
+        $("[name='extendDataFormInfo.value(znhg_divideRuleDetail."+ 0 +".znhg_commissionSaleAmountTo)']").val(10000000);
+        $("[name='extendDataFormInfo.value(znhg_divideRuleDetail."+ 0 +".znhg_commissionFeePercent)']").val(15);
+
+        //售货机代运营规则
+        $("[name='extendDataFormInfo.value(shj_operationRuleDetail."+ 0 +".shj_saleAmountFrom)']").val(0);
+        $("[name='extendDataFormInfo.value(shj_operationRuleDetail."+ 0 +".shj_saleAmountTo)']").val(10000000);
+        $("[name='extendDataFormInfo.value(shj_operationRuleDetail."+ 0 +".shj_platformFeeAmount)']").val(85);
+
+        //智能货柜代运营规则
+        $("[name='extendDataFormInfo.value(znhg_operationRuleDetail."+ 0 +".znhg_saleAmountFrom)']").val(0);
+        $("[name='extendDataFormInfo.value(znhg_operationRuleDetail."+ 0 +".znhg_saleAmountTo)']").val(10000000);
+        $("[name='extendDataFormInfo.value(znhg_operationRuleDetail."+ 0 +".znhg_platformFeeAmount)']").val(85);
+
+        return true;
+
+    });
+
+    // Com_Parameter.event["submit"].push(function(){
+    //     var shj_divideRuleDetailFlag = 0;
+    //     $("#TABLE_DL_shj_divideRuleDetail input[name*='shj_commissionSaleAmountFrom']").each(function(i){
+    //         var j = i + 1;
+    //         var shj_commissionSaleAmountFrom = $("[name='extendDataFormInfo.value(shj_divideRuleDetail."+i+".shj_commissionSaleAmountFrom)']").val();
+    //         var shj_commissionSaleAmountTo = $("[name='extendDataFormInfo.value(shj_divideRuleDetail."+i+".shj_commissionSaleAmountTo)']").val();
+    //
+    //         var shj_commissionSaleAmountFromNum = parseInt(shj_commissionSaleAmountFrom);
+    //         var shj_commissionSaleAmountToNum = parseInt(shj_commissionSaleAmountTo);
+    //
+    //         if (shj_commissionSaleAmountToNum <= shj_commissionSaleAmountFromNum) {
+    //             shj_divideRuleDetailFlag = 1;
+    //             alert("结束区间金额不能小于开始区间金额（售货机业务-合伙人分成规则,第" + j + "行）");
+    //             return false;
+    //         }
+    //
+    //         if (shj_commissionSaleAmountFromNum > 10000000) {
+    //             shj_divideRuleDetailFlag = 1;
+    //             alert("区间金额大小不能超过1千万（售货机业务-合伙人分成规则,第" + j + "行）");
+    //             return false;
+    //         }
+    //
+    //
+    //         if (i == 0) {
+    //             if (shj_commissionSaleAmountFromNum > 0) {
+    //                 shj_divideRuleDetailFlag = 1;
+    //                 alert("第一条规则起始金额应为0（售货机业务-合伙人分成规则,第" + j + "行）");
+    //                 return false;
+    //             }
+    //         } else {
+    //             var k = i - 1;
+    //             var shj_commissionSaleAmountToPre = $("[name='extendDataFormInfo.value(shj_divideRuleDetail."+k+".shj_commissionSaleAmountTo)']").val();
+    //             if (shj_commissionSaleAmountFrom != shj_commissionSaleAmountToPre) {
+    //                 shj_divideRuleDetailFlag = 1;
+    //                 alert("上一条的结束区间金额应该等于下一条的开始区间金额（售货机业务-合伙人分成规则,第" + j + "行）");
+    //                 return false;
+    //             }
+    //         }
+    //     });
+    //
+    //     if (shj_divideRuleDetailFlag == 1) {
+    //         return false;
+    //     }
+    //     return true;
+    // });
+
+
+    // Com_Parameter.event["submit"].push(function(){
+    //
+    //     var shj_operationRuleDetailFlag = 0;
+    //
+    //     $("#TABLE_DL_shj_operationRuleDetail input[name*='shj_saleAmountFrom']").each(function(i){
+    //         var j = i + 1;
+    //         var shj_saleAmountFrom = $("[name='extendDataFormInfo.value(shj_operationRuleDetail."+i+".shj_saleAmountFrom)']").val();
+    //         var shj_saleAmountTo = $("[name='extendDataFormInfo.value(shj_operationRuleDetail."+i+".shj_saleAmountTo)']").val();
+    //
+    //         var shj_saleAmountFromNum = parseInt(shj_saleAmountFrom);
+    //         var shj_saleAmountToNum = parseInt(shj_saleAmountTo);
+    //
+    //         if (shj_saleAmountToNum <= shj_saleAmountFromNum) {
+    //             shj_operationRuleDetailFlag = 1;
+    //             alert("结束区间金额不能小于开始区间金额（售货机业务-代运营规则,第" + j + "行）");
+    //             return false;
+    //         }
+    //
+    //         if (shj_saleAmountFromNum > 10000000) {
+    //             shj_operationRuleDetailFlag = 1;
+    //             alert("区间金额大小不能超过1千万（售货机业务-代运营规则,第" + j + "行）");
+    //             return false;
+    //         }
+    //
+    //
+    //         if (i == 0) {
+    //             if (shj_saleAmountFromNum > 0) {
+    //                 shj_operationRuleDetailFlag = 1;
+    //                 alert("第一条规则起始金额应为0（售货机业务-代运营规则,第" + j + "行）");
+    //                 return false;
+    //             }
+    //         } else {
+    //             var k = i - 1;
+    //             var shj_saleAmountToPre = $("[name='extendDataFormInfo.value(shj_operationRuleDetail."+k+".shj_saleAmountTo)']").val();
+    //             if (shj_saleAmountFrom != shj_saleAmountToPre) {
+    //                 shj_operationRuleDetailFlag = 1;
+    //                 alert("上一条的结束区间金额应该等于下一条的开始区间金额（售货机业务-代运营规则,第" + j + "行）");
+    //                 return false;
+    //             }
+    //         }
+    //     });
+    //     if (shj_operationRuleDetailFlag == 1) {
+    //         return false;
+    //     }
+    //     return true;
+    // });
+
+
+    // Com_Parameter.event["submit"].push(function(){
+    //
+    //     var znhg_divideRuleDetailFlag = 0;
+    //
+    //     $("#TABLE_DL_znhg_divideRuleDetail input[name*='znhg_commissionSaleAmountFrom']").each(function(i){
+    //         var j = i + 1;
+    //         var znhg_commissionSaleAmountFrom = $("[name='extendDataFormInfo.value(znhg_divideRuleDetail."+i+".znhg_commissionSaleAmountFrom)']").val();
+    //         var znhg_commissionSaleAmountTo = $("[name='extendDataFormInfo.value(znhg_divideRuleDetail."+i+".znhg_commissionSaleAmountTo)']").val();
+    //
+    //         var znhg_commissionSaleAmountFromNum = parseInt(znhg_commissionSaleAmountFrom);
+    //         var znhg_commissionSaleAmountToNum = parseInt(znhg_commissionSaleAmountTo);
+    //
+    //         if (znhg_commissionSaleAmountToNum <= znhg_commissionSaleAmountFromNum) {
+    //             znhg_divideRuleDetailFlag = 1;
+    //             alert("结束区间金额不能小于开始区间金额（智能货柜-合伙人分成规则,第" + j + "行）");
+    //             return false;
+    //         }
+    //
+    //         if (znhg_commissionSaleAmountFromNum > 10000000) {
+    //             znhg_divideRuleDetailFlag = 1;
+    //             alert("区间金额大小不能超过1千万（智能货柜-合伙人分成规则,第" + j + "行）");
+    //             return false;
+    //         }
+    //
+    //
+    //         if (i == 0) {
+    //             if (znhg_commissionSaleAmountFromNum > 0) {
+    //                 znhg_divideRuleDetailFlag = 1;
+    //                 alert("第一条规则起始金额应为0（智能货柜-合伙人分成规则,第" + j + "行）");
+    //                 return false;
+    //             }
+    //         } else {
+    //             var k = i - 1;
+    //             var znhg_commissionSaleAmountToPre = $("[name='extendDataFormInfo.value(znhg_divideRuleDetail."+k+".znhg_commissionSaleAmountTo)']").val();
+    //             if (znhg_commissionSaleAmountFrom != znhg_commissionSaleAmountToPre) {
+    //                 znhg_divideRuleDetailFlag = 1;
+    //                 alert("上一条的结束区间金额应该等于下一条的开始区间金额（智能货柜-合伙人分成规则,第" + j + "行）");
+    //                 return false;
+    //             }
+    //         }
+    //     });
+    //
+    //     if (znhg_divideRuleDetailFlag == 1) {
+    //         return false;
+    //     }
+    //     return true;
+    // });
+
+    // Com_Parameter.event["submit"].push(function(){
+    //
+    //     var znhg_operationRuleDetailFlag = 0;
+    //
+    //     $("#TABLE_DL_znhg_operationRuleDetail input[name*='znhg_saleAmountFrom']").each(function(i){
+    //         var j = i + 1;
+    //         var znhg_saleAmountFrom = $("[name='extendDataFormInfo.value(znhg_operationRuleDetail."+i+".znhg_saleAmountFrom)']").val();
+    //         var znhg_saleAmountTo = $("[name='extendDataFormInfo.value(znhg_operationRuleDetail."+i+".znhg_saleAmountTo)']").val();
+    //
+    //         var znhg_saleAmountFromNum = parseInt(znhg_saleAmountFrom);
+    //         var znhg_saleAmountToNum = parseInt(znhg_saleAmountTo);
+    //
+    //         if (znhg_saleAmountToNum <= znhg_saleAmountFromNum) {
+    //             znhg_operationRuleDetailFlag = 1;
+    //             alert("结束区间金额不能小于开始区间金额（智能货柜-代运营规则,第" + j + "行）");
+    //             return false;
+    //         }
+    //
+    //         if (znhg_saleAmountFromNum > 10000000) {
+    //             znhg_operationRuleDetailFlag = 1;
+    //             alert("区间金额大小不能超过1千万（智能货柜-代运营规则,第" + j + "行）");
+    //             return false;
+    //         }
+    //
+    //
+    //         if (i == 0) {
+    //             if (znhg_saleAmountFromNum > 0) {
+    //                 znhg_operationRuleDetailFlag = 1;
+    //                 alert("第一条规则起始金额应为0（智能货柜-代运营规则,第" + j + "行）");
+    //                 return false;
+    //             }
+    //         } else {
+    //             var k = i - 1;
+    //             var znhg_saleAmountToPre = $("[name='extendDataFormInfo.value(znhg_operationRuleDetail."+k+".znhg_saleAmountTo)']").val();
+    //             if (znhg_saleAmountFrom != znhg_saleAmountToPre) {
+    //                 znhg_operationRuleDetailFlag = 1;
+    //                 alert("上一条的结束区间金额应该等于下一条的开始区间金额（智能货柜-代运营规则,第" + j + "行）");
+    //                 return false;
+    //             }
+    //         }
+    //     });
+    //
+    //     if (znhg_operationRuleDetailFlag == 1) {
+    //         return false;
+    //     }
+    //     return true;
+    // });
+</script>

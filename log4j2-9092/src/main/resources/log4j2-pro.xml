@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO" strict="true">
+
+    <Properties>
+        <Property name="log-dir">/ubox/logs/attendance-dingtalk/app</Property>
+        <Property name="info-file">${log-dir}/info.log</Property>
+        <Property name="error-file">${log-dir}/error.log</Property>
+    </Properties>
+
+    <Appenders>
+        <Console name="CONSOLE">
+            <PatternLayout>
+                <pattern>
+                    [%d][%X{requestId}][%t]%highlight{[%p] (%F:%L) - %m}{FATAL=red, ERROR=Bright red,WARN=yellow,INFO=Green,DEBUG=White,TRACE=Magenta}%n%throwable
+                </pattern>
+            </PatternLayout>
+        </Console>
+
+        <RollingFile name="INFO" fileName="${info-file}" filePattern="${info-file}%d{yyyyMMdd}">
+            <PatternLayout>
+                <pattern>[%d][%X{requestId}][%p] (%F:%L) - %m%n%throwable</pattern>
+            </PatternLayout>
+
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="100MB"/>
+            </Policies>
+
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+
+        <RollingFile name="ERROR" fileName="${error-file}" filePattern="${error-file}-%d{yyyyMMdd}">
+            <PatternLayout>
+                <pattern>[%d][%X{requestId}][%t][%p] (%F:%L) - %m%n%ex</pattern>
+            </PatternLayout>
+            <Filters>
+                <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="100MB"/>
+            </Policies>
+
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+
+    </Appenders>
+
+    <Loggers>
+        <Logger name="cn.ubox.attendance" level="DEBUG" additivity="false">
+            <AppenderRef ref="INFO"/>
+            <AppenderRef ref="ERROR"/>
+        </Logger>
+
+        <Root level="DEBUG">
+            <AppenderRef ref="INFO"/>
+            <AppenderRef ref="ERROR"/>
+        </Root>
+    </Loggers>
+
+</Configuration>

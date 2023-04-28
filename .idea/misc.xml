@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/t_eureaka1/pom.xml" />
+        <option value="$PROJECT_DIR$/t_provider1/pom.xml" />
+        <option value="$PROJECT_DIR$/t_consumer1/pom.xml" />
+        <option value="$PROJECT_DIR$/t_consumer2/pom.xml" />
+        <option value="$PROJECT_DIR$/t_gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/t_configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/t_configclient/pom.xml" />
+        <option value="$PROJECT_DIR$/t_configclient_8859/pom.xml" />
+        <option value="$PROJECT_DIR$/t-rabbitmq-provider8801/pom.xml" />
+        <option value="$PROJECT_DIR$/t-rabbitmq-consumer8802/pom.xml" />
+        <option value="$PROJECT_DIR$/t-rabbitmq-consumer8803/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server7001/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-client8001/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server7002/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-client8002/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-client8003/pom.xml" />
+        <option value="$PROJECT_DIR$/zookeeper-client8004/pom.xml" />
+        <option value="$PROJECT_DIR$/zookeeper-client8005/pom.xml" />
+        <option value="$PROJECT_DIR$/client-consul8006/pom.xml" />
+        <option value="$PROJECT_DIR$/client-consul8007/pom.xml" />
+        <option value="$PROJECT_DIR$/client-sleuth8008/pom.xml" />
+        <option value="$PROJECT_DIR$/client-sleuth8009/pom.xml" />
+        <option value="$PROJECT_DIR$/client-nacos8010/pom.xml" />
+        <option value="$PROJECT_DIR$/client-nacos8011/pom.xml" />
+        <option value="$PROJECT_DIR$/client-nacos8012/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-config8013/pom.xml" />
+        <option value="$PROJECT_DIR$/sentinel-server8401/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudalibaba-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudalibaba-provider-9003/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudalibaba-provider-9004/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudalibaba-consumer-8084/pom.xml" />
+        <option value="$PROJECT_DIR$/upload-file-8801/pom.xml" />
+        <option value="$PROJECT_DIR$/task/pom.xml" />
+        <option value="$PROJECT_DIR$/t_excel/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-data-jpa-9006/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-validator-9990/pom.xml" />
+        <option value="$PROJECT_DIR$/druid-8082/pom.xml" />
+        <option value="$PROJECT_DIR$/log4j2-9092/pom.xml" />
+        <option value="$PROJECT_DIR$/aliwork-api-8088/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-api-8090/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

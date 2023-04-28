@@ -1,0 +1,12 @@
+server:
+  port: 8012
+
+spring:
+  application:
+    name: client-nacos8012
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 120.25.177.66:1111
+

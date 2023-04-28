@@ -1,0 +1,21 @@
+server:
+  port: 8801
+  tomcat:
+    max-http-form-post-size: -1
+
+spring:
+  application:
+    name: upload-file-8801
+  servlet:
+    multipart:
+      max-file-size: 1073741824
+      max-request-size: 1073741824
+
+
+
+
+
+file:
+  upload-dir: E:\Downloads\temp
+
+

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+日志级别: OFF > FATAL > ERROR > WARN > INFO > DEBUG > TRACE > ALL
+-->
+<Configuration status="INFO" strict="true">
+
+    <Properties>
+        <!--格式化输出:
+        %d或%date{yyyy-MM-dd HH:mm:ss, SSS} : 日志生产时间,输出到毫秒的时间
+        %-5level : 输出日志级别，-5表示左对齐并且固定输出5个字符，如果不足在右边补0
+        %c或%logger{36} : Java全类名，{36}最长36个字符
+        %F : Java类名
+        %C : Logger的名称
+        %t : 输出当前线程名称
+        %p : 日志输出格式
+        %m或%msg : 日志内容，即 logger.info("message")
+        %n : 换行符
+        %L : 行号
+        %M : 日志方法名
+        %l : 输出语句所在的行数, 包括类名、方法名、文件名、行数
+        %thread或%t : 表示线程名
+        hostName : 本地机器名
+        hostAddress : 本地ip地址-->
+        <property name="LOG_PATTERN" value="[%d][%X{requestId}][%t]%highlight{[%p] (%F:%L) - %m}{FATAL=red, ERROR=Bright red,WARN=yellow,INFO=Green,DEBUG=White,TRACE=Magenta}%n%throwable" />
+        <property name="FILE_PATH">/ubox/logs/attendance-dingtalk/app</property> <!--日志储存路径-->
+        <property name="FILE_NAME">log4j2_9092</property> <!--文件名-->
+    </Properties>
+
+
+    <!--
+        如果没有配置log4j2.xml的话，log4j2会有默认配置，默认将info及以上级别的日志同步输出到控制台.
+
+        Configuration(根节点）: 含有status和monitorInterval等属性
+            status: 含有 “trace”, “debug”, “info”, “warn”, “error” and “fatal”等值，用于控制log4j2日志框架本身的日志级别，
+            如果将stratus设置为较低的级别就会看到很多关于log4j2本身的日志，如加载log4j2配置文件的路径等信息
+            注意：这个属性是针对框架本身信息，不针对我们用logger输出的信息.
+            monitorInterval: 含义是每隔多少秒重新读取配置文件，可以不重启应用的情况下修改配置.
+
+        properties（属性节点）: 用来定义常量，供其它配置引用
+
+        Appenders（输出源节点）: 支持Console, File, RollingRandomAccessFile, MongoDB, Flume 等输出源。
+            Console: 控制台输出源
+            File: 文件输出源
+            RollingRandomAccessFile: 随机滚动存储文件输出源，可指定在文件达到一定大小时，另起一文件写入日志。
+                fileName: 日志文件路径及名称
+                filePattern: rolling时文件的命名规则
+                SizeBasedTriggeringPolicy: 文件体积大于size时触发rolling
+                DefaultRolloverStrategy: 最多保存的文件个数
+                TimeBasedTriggeringPolicy
+                PatternLayout: 控制台或文件输出源（Console、File、RollingRandomAccessFile）都必须包含一个PatternLayout节点，
+                用于指定输出文件的格式（如 日志输出的时间 文件 方法 行数 等格式），例如 pattern=”%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n”
+     -->
+    <Appenders>
+
+        <Console name="DebugConsole" target="SYSTEM_OUT">
+            <!--控制台只输出level及其以上级别的信息（onMatch），其他的直接拒绝（onMismatch）-->
+            <ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY" />
+            <!--输出日志的格式: PatternLayout：自定义形式显示,SimpleLayout：简单的形式显示,HTMLLayout：HTML表格显示-->
+            <PatternLayout pattern="${LOG_PATTERN}" />
+        </Console>
+
+        <console name="InfoConsole" target="SYSTEM_OUT">
+            <!--控制台只输出level及其以上级别的信息（onMatch），其他的直接拒绝（onMismatch）-->
+            <ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY"/>
+            <!--输出日志的格式: PatternLayout：自定义形式显示,SimpleLayout：简单的形式显示,HTMLLayout：HTML表格显示-->
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+        </console>
+
+        <Console name="ErrorConsole" target="SYSTEM_OUT">
+            <ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY" />
+            <PatternLayout pattern="${LOG_PATTERN}" />
+        </Console>
+
+        <!-- filePattern: rolling时文件的命名规则, %i 是整数计数器 -->
+        <RollingFile name="InfoRollingFile" fileName="${FILE_PATH}/info.log" filePattern="${FILE_PATH}/${FILE_NAME}-INFO-%d{yyyy-MM-dd}_%i.gz">
+            <ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+            <Policies>
+                <!--interval属性用来指定多久滚动一次，默认是1 hour-->
+                <!-- TimeBasedTriggeringPolicy 规定了当日志文件名中的date/time pattern不再符合filePattern中的date/time pattern时，触发rollover -->
+                <TimeBasedTriggeringPolicy interval="1"/>
+                <!-- 文件体积大于size时触发rolling -->
+                <SizeBasedTriggeringPolicy size="1MB"/>
+            </Policies>
+            <!-- DefaultRolloverStrategy属性如不设置，则默认为最多同一文件夹下7个文件开始覆盖-->
+            <DefaultRolloverStrategy max="15"/>
+        </RollingFile>
+
+        <RollingFile name="WarnRollingFile" fileName="${FILE_PATH}/warn.log" filePattern="${FILE_PATH}/${FILE_NAME}-WARN-%d{yyyy-MM-dd}_%i.log.gz">
+            <ThresholdFilter level="warn" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1"/>
+                <SizeBasedTriggeringPolicy size="1MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="15"/>
+        </RollingFile>
+
+        <RollingFile name="ErrorRollingFile" fileName="${FILE_PATH}/error.log" filePattern="${FILE_PATH}/${FILE_NAME}-ERROR-%d{yyyy-MM-dd}_%i.log.gz">
+            <ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy modulate="true" interval="1"/>
+                <SizeBasedTriggeringPolicy size="1MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="15"/>
+        </RollingFile>
+
+    </Appenders>
+
+    <!--定义Loggers，让appender才会生效：
+    1.默认Root项目整体配置方式
+    2.如果Logger有定义指定包的特殊配置,则该指定包按照Logger的配置打印-->
+    <Loggers>
+        <!-- Root节点用来指定项目整体的默认日志配置，此处最低级别level为 debug，整个项目的输出按照这个级别执行-->
+        <Root level="info">
+<!--            <appenderRef ref="InfoConsole"/>&lt;!&ndash;启用控制台日志输出&ndash;&gt;-->
+            <appenderRef ref="InfoRollingFile" /><!--启用Info级别文件日志记录-->
+            <appenderRef ref="WarnRollingFile" /><!--启用Warn级别文件日志记录-->
+            <appenderRef ref="ErrorRollingFile"/><!--启用Error级别文件日志记录-->
+            <!--<appenderRef ref="File"/>-->
+        </Root>
+
+        <!--Logger用来针对指定的package配置日志的形式，比如为指定包下的class指定不同的日志级别等。 -->
+        <Logger name="org.mybatis" level="info" additivity="false"><!--过滤掉mybatis的一些无用的DEBUG信息-->
+            <AppenderRef ref="InfoConsole"/>
+            <AppenderRef ref="ErrorRollingFile"/>
+        </Logger>
+        <!--若是additivity设为false，则 子Logger 只会在自己的appender里输出，而不会在 父Logger 的appender里输出。-->
+        <Logger name="com.example.log4j29092.controller" level="info" additivity="false"><!--过滤掉spring的一些无用的DEBUG信息-->
+            <AppenderRef ref="ErrorRollingFile"/>
+        </Logger>
+    </Loggers>
+
+</Configuration>

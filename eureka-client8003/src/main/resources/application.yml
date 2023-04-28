@@ -1,0 +1,19 @@
+server:
+  port: 8003
+
+spring:
+  application:
+    name: eurekaClientCluster
+
+eureka:
+  client:
+    #表示是否将自己注册到进eurekaServer默认为true
+    register-with-eureka: true
+    #是否从eureka中抓取已有的注册消息，默认为true。单节点无所谓，集群必须设置为true才能配合ribbon使用负载均衡
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+  instance:
+    # 将自己的IP注册到Eureka Server。若不配置或设置为false，表示注册微服务所在操作系统的hostname到Eureka Server
+    prefer-ip-address: true
+    instance-id: provider8003
