@@ -1,0 +1,28 @@
+server:
+  port: 8802
+
+spring:
+  application:
+    name: consumer8802
+  rabbitmq:
+    host: 192.168.191.128
+    port: 5672
+    username: c8802
+    password: c8802
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: studyExchange
+          contentType: application/json
+          group: consumerGroupA
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+
+
+

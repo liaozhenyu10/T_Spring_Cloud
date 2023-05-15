@@ -1,0 +1,39 @@
+server:
+  port: 9005
+
+spring:
+  application:
+    name: gw
+  cloud:
+    gateway:
+      routes:
+        - id: consumer2 #路由对象唯一标识
+          #uri: http://localhost:9003
+          uri: lb://CONSUMER1-2 #实现请求负载均衡
+          predicates:
+            - Path=/consumer2/**
+            #- Cookie=name,[A-Za-z0-9] # curl http://localhost:9005/consumer2/testHystrix?id=1 --cookie "name=liaozhenyu"
+          filters:
+            - AddRequestHeader=User-Name, liaozhenyu
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+
+
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"  #开启所有端点暴露
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_79" class="java.beans.XMLDecoder">
+    <object class="java.util.HashMap">
+        <void method="put">
+            <string>sub_branch</string>
+            <null/>
+        </void>
+        <void method="put">
+            <string>formType</string>
+            <string>0</string>
+        </void>
+        <void method="put">
+            <string>fd_urgent_flag</string>
+            <string>0</string>
+        </void>
+        <void method="put">
+            <string>node_client_name</string>
+            <string>佛山市顺德区顺达电脑厂有限公司</string>
+        </void>
+        <void method="put">
+            <string>fd_bank_flag</string>
+            <string>1</string>
+        </void>
+        <void method="put">
+            <string>fd_pay_type</string>
+            <string>0</string>
+        </void>
+        <void method="put">
+            <string>dest_city</string>
+            <string>佛山</string>
+        </void>
+        <void method="put">
+            <string>fee_detail_index_</string>
+            <object class="java.util.HashMap">
+                <void method="put">
+                    <string>fee_date</string>
+                    <null/>
+                </void>
+                <void method="put">
+                    <string>node_fee</string>
+                    <null/>
+                </void>
+                <void method="put">
+                    <string>sys_fee</string>
+                    <null/>
+                </void>
+            </object>
+        </void>
+        <void method="put">
+            <string>purpose</string>
+            <string>代收代付</string>
+        </void>
+        <void method="put">
+            <string>fd_fk_account_code</string>
+            <string>1002030021</string>
+        </void>
+        <void method="put">
+            <string>fd_src_branch_name</string>
+            <string>广州伟吉贸易有限公司佛山分公司</string>
+        </void>
+        <void method="put">
+            <string>fd_bytter_code</string>
+            <string>200</string>
+        </void>
+        <void method="put">
+            <string>src_account_no</string>
+            <string>44001668938053010761</string>
+        </void>
+        <void method="put">
+            <string>fd_apply_date</string>
+            <object class="java.util.Date">
+                <long>1666713600000</long>
+            </object>
+        </void>
+        <void method="put">
+            <string>fd_union_line_number</string>
+            <string>0</string>
+        </void>
+        <void method="put">
+            <string>fd_sk_bank_code</string>
+            <string></string>
+        </void>
+        <void method="put">
+            <string>fd_city_flag</string>
+            <string>0</string>
+        </void>
+        <void method="put">
+            <string>amount</string>
+            <object class="java.math.BigDecimal">
+                <string>2392.40</string>
+            </object>
+        </void>
+        <void method="put">
+            <string>fd_sk_bank_name</string>
+            <string>广东顺德农村商业银行股份有限公司</string>
+        </void>
+        <void method="put">
+            <string>dest_name</string>
+            <string>02048800002908</string>
+        </void>
+        <void method="put">
+            <string>file_list_index_</string>
+            <object class="java.util.HashMap">
+                <void method="put">
+                    <string>file_url</string>
+                    <null/>
+                </void>
+            </object>
+        </void>
+        <void method="put">
+            <string>fee_detail</string>
+            <object class="java.util.ArrayList">
+                <void method="add">
+                    <object class="java.util.HashMap">
+                        <void method="put">
+                            <string>fdId</string>
+                            <string>18412ff652371e20f22a14c41d8b65dd</string>
+                        </void>
+                        <void method="put">
+                            <string>fee_date</string>
+                            <string>2022-09</string>
+                        </void>
+                        <void method="put">
+                            <string>node_fee</string>
+                            <string>2392.40</string>
+                        </void>
+                        <void method="put">
+                            <string>sys_fee</string>
+                            <string>2403.88</string>
+                        </void>
+                    </object>
+                </void>
+            </object>
+        </void>
+        <void method="put">
+            <string>fd_bytter_message</string>
+            <string>该单据不同步拜特系统！</string>
+        </void>
+        <void method="put">
+            <string>fd_3ac9cd9f5c9e98</string>
+            <string>FM20221026130</string>
+        </void>
+        <void method="put">
+            <string>fd_fk_company_name</string>
+            <string>广州伟吉贸易有限公司佛山分公司</string>
+        </void>
+        <void method="put">
+            <string>customer_name</string>
+            <string>丘志伟-创始</string>
+        </void>
+        <void method="put">
+            <string>doc_type</string>
+            <string>0</string>
+        </void>
+        <void method="put">
+            <string>file_list</string>
+            <object class="java.util.ArrayList">
+                <void method="add">
+                    <object class="java.util.HashMap">
+                        <void method="put">
+                            <string>fdId</string>
+                            <string>18412ff652346f916b6be8b40feafcd8</string>
+                        </void>
+                        <void method="put">
+                            <string>file_url</string>
+                            <string>
+                                https://dw-api.oss-cn-beijing.aliyuncs.com/files/2022/10/26/e0ba0677d2174831b166d55f30b39f68.jpg
+                            </string>
+                        </void>
+                    </object>
+                </void>
+                <void method="add">
+                    <object class="java.util.HashMap">
+                        <void method="put">
+                            <string>fdId</string>
+                            <string>18412ff6523ecaa4f39abd44eed9e1f3</string>
+                        </void>
+                        <void method="put">
+                            <string>file_url</string>
+                            <string>
+                                https://dw-api.oss-cn-beijing.aliyuncs.com/files/2022/10/26/3baad8e0b93a40f7ae9b736092d54187/1_顺达电脑-%2B自动售货机合作协议（2022.5.1-2023.4.30）.doc
+                            </string>
+                        </void>
+                    </object>
+                </void>
+            </object>
+        </void>
+        <void method="put">
+            <string>fd_sk_account_code</string>
+            <string></string>
+        </void>
+        <void method="put">
+            <string>fd_canalCode</string>
+            <string>9018</string>
+        </void>
+        <void method="put">
+            <string>fd_3ac9ccf0e7ed66</string>
+            <string>佛山公司</string>
+        </void>
+        <void method="put">
+            <string>fd_sync_bytter</string>
+            <string>1</string>
+        </void>
+        <void method="put">
+            <string>fd_fk_bank_type_name</string>
+            <string>中国建设银行</string>
+        </void>
+        <void method="put">
+            <string>fd_fk_company_code</string>
+            <string>2110</string>
+        </void>
+        <void method="put">
+            <string>refer_url</string>
+            <string>
+                http://ubox-ivm.uboxol.com/partner-point#/partner/Point/partnerPoint/partnerPointApply/detail?id=209
+            </string>
+        </void>
+        <void method="put">
+            <string>fd_fk_bank_type_code</string>
+            <string>105</string>
+        </void>
+        <void method="put">
+            <string>apply_user</string>
+            <object class="java.util.HashMap">
+                <void method="put">
+                    <string>id</string>
+                    <string>15bc705f92acdc7533188b84f4099dcd</string>
+                </void>
+                <void method="put">
+                    <string>name</string>
+                    <string>丘志伟</string>
+                </void>
+            </object>
+        </void>
+        <void method="put">
+            <string>src_branch_id</string>
+            <string>B0000002147</string>
+        </void>
+        <void method="put">
+            <string>fd_remark</string>
+            <string></string>
+        </void>
+        <void method="put">
+            <string>dest_account_name</string>
+            <string>佛山市顺德区顺达电脑厂有限公司</string>
+        </void>
+        <void method="put">
+            <string>dest_province</string>
+            <string>广东</string>
+        </void>
+        <void method="put">
+            <string>node_client_id</string>
+            <string>佛山市顺德区顺达电脑厂有限公司</string>
+        </void>
+        <void method="put">
+            <string>parent_fd_id</string>
+            <string>18412e0ff7435a8701ae3024b5d97e75</string>
+        </void>
+        <void method="put">
+            <string>fd_expected_date</string>
+            <object class="java.util.Date">
+                <long>1666800000000</long>
+            </object>
+        </void>
+        <void method="put">
+            <string>dest_account_no</string>
+            <string>622909396913398413</string>
+        </void>
+        <void method="put">
+            <string>fd_open_bank_name</string>
+            <string>中国建设银行佛山澜石支行</string>
+        </void>
+        <void method="put">
+            <string>customer_id</string>
+            <string>NFS184213</string>
+        </void>
+    </object>
+</java>

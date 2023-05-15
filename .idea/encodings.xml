@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/aliwork-api-8088/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client-consul8006/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client-consul8007/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client-nacos8010/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client-nacos8011/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client-nacos8012/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client-sleuth8008/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client-sleuth8009/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-commons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-consumer-8084/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-provider-9003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudalibaba-provider-9004/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-api-8090/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/druid-8082/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-client8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-client8002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-client8003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server7002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/log4j2-9092/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-config8013/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel-server8401/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-validator-9990/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-data-jpa-9006/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t-rabbitmq-consumer8802/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t-rabbitmq-consumer8803/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t-rabbitmq-provider8801/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_configclient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_configclient_8859/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_configserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_consumer1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_consumer2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_eureaka1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_excel/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t_provider1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/task/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upload-file-8801/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeeper-client8004/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeeper-client8005/src/main/java" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,23 @@
+server:
+  port: 9006
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://172.16.1.20:3306/ekp?useUnicode=true&characterEncoding=UTF-8
+    username: ekp
+    password: abcABC123
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      #自动创建或修改表结构
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:
+      hibernate:
+        #设置hibernate方言使用mysql的InnoDBD引擎,InnoDBD支持事务
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        #启用懒加载
+        enable_lazy_load_no_trans: true

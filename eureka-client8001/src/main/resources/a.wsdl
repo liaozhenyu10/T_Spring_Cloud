@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="SI_HR020_O_OA_ECC_DNBT" targetNamespace="urn:ubox:cn:project:oa"
+                  xmlns:p1="urn:ubox:cn:project:oa" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy"
+                  xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+    <wsdl:documentation/>
+    <wsp:UsingPolicy wsdl:required="true"/>
+    <wsp:Policy wsu:Id="OP_SI_HR020_O_OA_ECC_DNBT"/>
+    <wsdl:types>
+        <xsd:schema targetNamespace="urn:ubox:cn:project:oa" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                    xmlns="urn:ubox:cn:project:oa">
+            <xsd:element name="MT_HR020_OA_ECC_DNBT_REQ" type="DT_HR020_OA_ECC_DNBT_REQ"/>
+            <xsd:element name="MT_HR020_OA_ECC_DNBT_RES" type="DT_HR020_OA_ECC_DNBT_RES"/>
+            <xsd:complexType name="DT_HR020_OA_ECC_DNBT_REQ">
+                <xsd:annotation>
+                    <xsd:documentation xml:lang="EN">电脑补贴申请接口</xsd:documentation>
+                    <xsd:appinfo source="http://sap.com/xi/VersionID">6d7d3d1852a211ed8cd600000023b9e6</xsd:appinfo>
+                </xsd:annotation>
+                <xsd:sequence>
+                    <xsd:element name="ZOA_ID">
+                        <xsd:annotation>
+                            <xsd:appinfo source="http://sap.com/xi/TextID">230fdf1093f511eaaa08dc7196c37153
+                            </xsd:appinfo>
+                            <xsd:documentation>OA流水单号</xsd:documentation>
+                        </xsd:annotation>
+                        <xsd:simpleType>
+                            <xsd:restriction base="xsd:string">
+                                <xsd:maxLength value="25"/>
+                            </xsd:restriction>
+                        </xsd:simpleType>
+                    </xsd:element>
+                    <xsd:element name="ZPERNR">
+                        <xsd:annotation>
+                            <xsd:appinfo source="http://sap.com/xi/TextID">230ff52493f511ea9dfedc7196c37153
+                            </xsd:appinfo>
+                            <xsd:documentation>员工工号</xsd:documentation>
+                        </xsd:annotation>
+                        <xsd:simpleType>
+                            <xsd:restriction base="xsd:string">
+                                <xsd:maxLength value="8"/>
+                            </xsd:restriction>
+                        </xsd:simpleType>
+                    </xsd:element>
+                    <xsd:element name="ZNACHN">
+                        <xsd:annotation>
+                            <xsd:appinfo source="http://sap.com/xi/TextID">cb5c8dde942211eaa3ffdc7196c37153
+                            </xsd:appinfo>
+                            <xsd:documentation>姓名</xsd:documentation>
+                        </xsd:annotation>
+                        <xsd:simpleType>
+                            <xsd:restriction base="xsd:string">
+                                <xsd:maxLength value="40"/>
+                            </xsd:restriction>
+                        </xsd:simpleType>
+                    </xsd:element>
+                    <xsd:element name="TO_SYSTEM">
+                        <xsd:annotation>
+                            <xsd:appinfo source="http://sap.com/xi/TextID">1978822993f611eaa27ddc7196c37153
+                            </xsd:appinfo>
+                            <xsd:documentation>系统标识</xsd:documentation>
+                        </xsd:annotation>
+                        <xsd:simpleType>
+                            <xsd:restriction base="xsd:string">
+                                <xsd:maxLength value="10"/>
+                            </xsd:restriction>
+                        </xsd:simpleType>
+                    </xsd:element>
+                    <xsd:element name="ZDATE">
+                        <xsd:annotation>
+                            <xsd:appinfo source="http://sap.com/xi/TextID">21b3b6fa382711edb84100ffabf05f25
+                            </xsd:appinfo>
+                            <xsd:documentation>申请时间</xsd:documentation>
+                        </xsd:annotation>
+                        <xsd:simpleType>
+                            <xsd:restriction base="xsd:string">
+                                <xsd:maxLength value="8"/>
+                            </xsd:restriction>
+                        </xsd:simpleType>
+                    </xsd:element>
+                    <xsd:element name="ZREASON">
+                        <xsd:annotation>
+                            <xsd:appinfo source="http://sap.com/xi/TextID">21b3d51c382711ed91a500ffabf05f25
+                            </xsd:appinfo>
+                            <xsd:documentation>原因</xsd:documentation>
+                        </xsd:annotation>
+                        <xsd:simpleType>
+                            <xsd:restriction base="xsd:string">
+                                <xsd:maxLength value="50"/>
+                            </xsd:restriction>
+                        </xsd:simpleType>
+                    </xsd:element>
+                </xsd:sequence>
+            </xsd:complexType>
+            <xsd:complexType name="DT_HR020_OA_ECC_DNBT_RES">
+                <xsd:annotation>
+                    <xsd:documentation xml:lang="EN">电脑补贴申请接口</xsd:documentation>
+                    <xsd:appinfo source="http://sap.com/xi/VersionID">b7bf68f752a211eda29700000023b9e6</xsd:appinfo>
+                </xsd:annotation>
+                <xsd:sequence>
+                    <xsd:element name="ZMSG">
+                        <xsd:annotation>
+                            <xsd:appinfo source="http://sap.com/xi/TextID">230fdf1093f511eaaa08dc7196c37153
+                            </xsd:appinfo>
+                            <xsd:documentation>消息描述</xsd:documentation>
+                        </xsd:annotation>
+                        <xsd:simpleType>
+                            <xsd:restriction base="xsd:string">
+                                <xsd:maxLength value="200"/>
+                            </xsd:restriction>
+                        </xsd:simpleType>
+                    </xsd:element>
+                    <xsd:element name="ZSTATUS">
+                        <xsd:annotation>
+                            <xsd:appinfo source="http://sap.com/xi/TextID">230ff52493f511ea9dfedc7196c37153
+                            </xsd:appinfo>
+                            <xsd:documentation>消息类型</xsd:documentation>
+                        </xsd:annotation>
+                        <xsd:simpleType>
+                            <xsd:restriction base="xsd:string">
+                                <xsd:maxLength value="1"/>
+                            </xsd:restriction>
+                        </xsd:simpleType>
+                    </xsd:element>
+                </xsd:sequence>
+            </xsd:complexType>
+        </xsd:schema>
+    </wsdl:types>
+    <wsdl:message name="MT_HR020_OA_ECC_DNBT_REQ">
+        <wsdl:documentation/>
+        <wsdl:part name="MT_HR020_OA_ECC_DNBT_REQ" element="p1:MT_HR020_OA_ECC_DNBT_REQ"/>
+    </wsdl:message>
+    <wsdl:message name="MT_HR020_OA_ECC_DNBT_RES">
+        <wsdl:documentation/>
+        <wsdl:part name="MT_HR020_OA_ECC_DNBT_RES" element="p1:MT_HR020_OA_ECC_DNBT_RES"/>
+    </wsdl:message>
+    <wsdl:portType name="SI_HR020_O_OA_ECC_DNBT">
+        <wsdl:documentation/>
+        <wsdl:operation name="SI_HR020_O_OA_ECC_DNBT">
+            <wsdl:documentation/>
+            <wsp:Policy>
+                <wsp:PolicyReference URI="#OP_SI_HR020_O_OA_ECC_DNBT"/>
+            </wsp:Policy>
+            <wsdl:input message="p1:MT_HR020_OA_ECC_DNBT_REQ"/>
+            <wsdl:output message="p1:MT_HR020_OA_ECC_DNBT_RES"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="SI_HR020_O_OA_ECC_DNBTBinding" type="p1:SI_HR020_O_OA_ECC_DNBT">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"
+                      xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"/>
+        <wsdl:operation name="SI_HR020_O_OA_ECC_DNBT">
+            <soap:operation soapAction="http://sap.com/xi/WebService/soap1.1"
+                            xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            <wsdl:input>
+                <soap:body use="literal" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="SI_HR020_O_OA_ECC_DNBTService">
+        <wsdl:port name="HTTP_Port" binding="p1:SI_HR020_O_OA_ECC_DNBTBinding">
+            <soap:address
+                    location="http://ubsappid.ubox.cn:50000/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=BC_OA&amp;receiverParty=&amp;receiverService=&amp;interface=SI_HR020_O_OA_ECC_DNBT&amp;interfaceNamespace=urn%3Aubox%3Acn%3Aproject%3Aoa"
+                    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"/>
+        </wsdl:port>
+        <wsdl:port name="HTTPS_Port" binding="p1:SI_HR020_O_OA_ECC_DNBTBinding">
+            <soap:address
+                    location="https://ubsappid.ubox.cn:50001/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=BC_OA&amp;receiverParty=&amp;receiverService=&amp;interface=SI_HR020_O_OA_ECC_DNBT&amp;interfaceNamespace=urn%3Aubox%3Acn%3Aproject%3Aoa"
+                    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

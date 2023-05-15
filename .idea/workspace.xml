@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BeansEndpointTabSettings">
+    <option name="showLiveBeansGraph" value="false" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0708ded0-1628-43c7-9aa3-71bfea4b226a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ekp测试" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ekp测试" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ekp测试" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ekp: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ekp测试" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ekp: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ekp测试" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ekp: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ub_open_bank: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/aliwork-api-8088">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/aliwork-api-8888">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Apache/apache-maven-3.9.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="26mVbbqKlYQ71pOOENldgPLP5mp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/codes/java/private-workspace/T_Spring_Cloud",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reactor",
+    "spring.configuration.checksum": "ce3820a2098c59cbdf5682b252cd6630"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\myWorkSpace\code\T_Spring_Cloud\aliwork-api-8088\src\main\resources" />
+      <recent name="E:\myWorkSpace\code\T_Spring_Cloud\log4j2-9092\src\main\resources" />
+      <recent name="E:\myWorkSpace\code\T_Spring_Cloud\spring-boot-validator-9990\src\main\resources" />
+      <recent name="E:\myWorkSpace\code\T_Spring_Cloud\spring-boot-validator-9990\src\main\java\com\example\springbootvalidator9990\common" />
+      <recent name="E:\myWorkSpace\code\T_Spring_Cloud\upload-file-8801\src\main\java\com\example\uploadfile8801\oa" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\code\newWorkspace\T_Spring_Cloud\nacos-config8013\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.druid8082.config" />
+      <recent name="com.example.druid8082" />
+      <recent name="com.example.druid8082.entity" />
+      <recent name="com.example.druid8082.repository" />
+      <recent name="com.example.springbootvalidator9990.common" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EurekaClient8001Application">
+    <configuration name="LocalDateTimeSerializerConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demoapi8090.config.LocalDateTimeSerializerConfig" />
+      <module name="demo-api-8090" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demoapi8090.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.springdatajpa9006.test.Test" />
+      <module name="spring-data-jpa-9006" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springdatajpa9006.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.t_eureaka1.Test" />
+      <module name="t_eureaka1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.t_eureaka1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.uploadfile8801.oa.Test" />
+      <module name="upload-file-8801" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.uploadfile8801.oa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demoapi8090.controller.TestController" />
+      <module name="demo-api-8090" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demoapi8090.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AliworkApi8088Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="aliwork-api-8088" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.aliworkapi8088.AliworkApi8088Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AliworkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="aliwork" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.aliwork.AliworkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientConsul8005Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="client-consul8005" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.clientconsul8005.ClientConsul8005Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientConsul8006Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="client-consul8006" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.clientconsul8006.ClientConsul8006Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientConsul8007Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="client-consul8007" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.clientconsul8007.ClientConsul8007Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientNacos8010Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="client-nacos8010" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.clientnacos8010.ClientNacos8010Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientNacos8011Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="client-nacos8011" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.clientnacos8011.ClientNacos8011Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientNacos8012Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="client-nacos8012" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.clientnacos8012.ClientNacos8012Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientSleuth8008Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="client-sleuth8008" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.clientsleuth8008.ClientSleuth8008Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientSleuth8009Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="client-sleuth8009" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.clientsleuth8009.ClientSleuth8009Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudalibabaCommonsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudalibaba-commons" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.cloudalibabacommons.CloudalibabaCommonsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudalibabaConsumer8084Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudalibaba-consumer-8084" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.cloudalibabaconsumer8084.CloudalibabaConsumer8084Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudalibabaProvider9003Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudalibaba-provider-9003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.cloudalibabaprovider9003.CloudalibabaProvider9003Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudalibabaProvider9004Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudalibaba-provider-9004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.cloudalibabaprovider9004.CloudalibabaProvider9004Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Consumer8803Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer8803" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.consumer8803.Consumer8803Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApi8090Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-api-8090" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demoapi8090.DemoApi8090Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Druid8082Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="druid-8082" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.druid8082.Druid8082Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClient8001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaclient8001.EurekaClient8001Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClient8002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaclient8002.EurekaClient8002Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClient8003Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client8003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaclient8003.EurekaClient8003Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer7001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaserver7001.EurekaServer7001Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer7002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaserver7002.EurekaServer7002Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Log4j29092Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <module name="log4j2-9092" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.log4j29092.Log4j29092Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosConfig8013Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nacos-config8013" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.nacosconfig8013.NacosConfig8013Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentinelServer8401Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sentinel-server8401" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.sentinelserver8401.SentinelServer8401Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootValidator9990Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-validator-9990" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootvalidator9990.SpringBootValidator9990Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDataJpa9006Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-data-jpa-9006" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springdatajpa9006.SpringDataJpa9006Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TConfigclient8859Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="t_configclient_8859" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.t_configclient_8859.TConfigclient8859Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TConfigclientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="t_configclient" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.t_configclient.TConfigclientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TConfigserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="t_configserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.t_configserver.TConfigserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TConsumer1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="t_consumer1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.t_consumer1.TConsumer1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TConsumer2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="t_consumer2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.t_consumer2.TConsumer2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TEureaka1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="t_eureaka1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.t_eureaka1.TEureaka1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TExcelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="t_excel" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.TExcelApplication" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="t_gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.t_gateway.TGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TProvider1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="t_provider1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.t_provider1.TProvider1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TRabbitmqConsumer8802Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="t-rabbitmq-consumer8802" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.trabbitmqconsumer8802.TRabbitmqConsumer8802Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TRabbitmqConsumer8803Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="t-rabbitmq-consumer8803" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.trabbitmqconsumer8803.TRabbitmqConsumer8803Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TRabbitmqProvider8801Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="t-rabbitmq-provider8801" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.trabbitmqprovider8801.TRabbitmqProvider8801Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="task" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.task.TaskApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UploadFile8801Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="upload-file-8801" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.uploadfile8801.UploadFile8801Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZookeeperClient8004Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zookeeper-client8004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.zookeeperclient8004.ZookeeperClient8004Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZookeeperClient8005Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zookeeper-client8005" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.zookeeperclient8005.ZookeeperClient8005Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="copy ClientNacos8011Application (9011)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="client-nacos8011" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.clientnacos8011.ClientNacos8011Application" />
+      <option name="VM_PARAMETERS" value="-DServer.port=9011" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.TConsumer1Application" />
+      <item itemvalue="Spring Boot.TConsumer2Application" />
+      <item itemvalue="Spring Boot.TEureaka1Application" />
+      <item itemvalue="Spring Boot.TProvider1Application" />
+      <item itemvalue="Spring Boot.TGatewayApplication" />
+      <item itemvalue="Spring Boot.TConfigserverApplication" />
+      <item itemvalue="Spring Boot.TConfigclientApplication" />
+      <item itemvalue="Spring Boot.TConfigclient8859Application" />
+      <item itemvalue="Spring Boot.TRabbitmqProvider8801Application" />
+      <item itemvalue="Spring Boot.TRabbitmqConsumer8802Application" />
+      <item itemvalue="Spring Boot.Consumer8803Application" />
+      <item itemvalue="Spring Boot.TRabbitmqConsumer8803Application" />
+      <item itemvalue="Spring Boot.EurekaServer7001Application" />
+      <item itemvalue="Spring Boot.EurekaClient8001Application" />
+      <item itemvalue="Spring Boot.EurekaServer7002Application" />
+      <item itemvalue="Spring Boot.EurekaClient8002Application" />
+      <item itemvalue="Spring Boot.EurekaClient8003Application" />
+      <item itemvalue="Spring Boot.ZookeeperClient8004Application" />
+      <item itemvalue="Spring Boot.ZookeeperClient8005Application" />
+      <item itemvalue="Spring Boot.ClientConsul8005Application" />
+      <item itemvalue="Spring Boot.ClientConsul8006Application" />
+      <item itemvalue="Spring Boot.ClientConsul8007Application" />
+      <item itemvalue="Spring Boot.ClientSleuth8008Application" />
+      <item itemvalue="Spring Boot.ClientSleuth8009Application" />
+      <item itemvalue="Spring Boot.ClientNacos8010Application" />
+      <item itemvalue="Spring Boot.ClientNacos8011Application" />
+      <item itemvalue="Spring Boot.copy ClientNacos8011Application (9011)" />
+      <item itemvalue="Spring Boot.ClientNacos8012Application" />
+      <item itemvalue="Spring Boot.NacosConfig8013Application" />
+      <item itemvalue="Spring Boot.SentinelServer8401Application" />
+      <item itemvalue="Spring Boot.CloudalibabaCommonsApplication" />
+      <item itemvalue="Spring Boot.CloudalibabaProvider9003Application" />
+      <item itemvalue="Spring Boot.CloudalibabaProvider9004Application" />
+      <item itemvalue="Spring Boot.CloudalibabaConsumer8084Application" />
+      <item itemvalue="Spring Boot.UploadFile8801Application" />
+      <item itemvalue="Spring Boot.TaskApplication" />
+      <item itemvalue="Spring Boot.TExcelApplication" />
+      <item itemvalue="Spring Boot.SpringDataJpa9006Application" />
+      <item itemvalue="Spring Boot.SpringBootValidator9990Application" />
+      <item itemvalue="Spring Boot.Druid8082Application" />
+      <item itemvalue="Spring Boot.Log4j29092Application" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.AliworkApplication" />
+      <item itemvalue="Spring Boot.AliworkApi8088Application" />
+      <item itemvalue="Spring Boot.DemoApi8090Application" />
+      <item itemvalue="应用程序.LocalDateTimeSerializerConfig" />
+      <item itemvalue="应用程序.Test" />
+      <item itemvalue="应用程序.Test (1)" />
+      <item itemvalue="应用程序.Test (2)" />
+      <item itemvalue="应用程序.TestController" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0708ded0-1628-43c7-9aa3-71bfea4b226a" name="Default Changelist" comment="" />
+      <created>1648028820081</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648028820081</updated>
+      <workItem from="1648028822770" duration="34034000" />
+      <workItem from="1648173049732" duration="13489000" />
+      <workItem from="1648198371382" duration="174000" />
+      <workItem from="1648199062563" duration="40000" />
+      <workItem from="1648199139105" duration="19254000" />
+      <workItem from="1648518104605" duration="4731000" />
+      <workItem from="1648692136855" duration="18014000" />
+      <workItem from="1648736469237" duration="5646000" />
+      <workItem from="1648792308419" duration="102000" />
+      <workItem from="1648792436668" duration="12860000" />
+      <workItem from="1648810522871" duration="861000" />
+      <workItem from="1648863245096" duration="2510000" />
+      <workItem from="1648866421862" duration="2845000" />
+      <workItem from="1648878366306" duration="11479000" />
+      <workItem from="1649087563638" duration="478000" />
+      <workItem from="1649088121994" duration="3109000" />
+      <workItem from="1649173614146" duration="3465000" />
+      <workItem from="1649223892977" duration="13137000" />
+      <workItem from="1649296143324" duration="10454000" />
+      <workItem from="1649383670188" duration="3063000" />
+      <workItem from="1649667415408" duration="26112000" />
+      <workItem from="1649835389017" duration="666000" />
+      <workItem from="1649917146314" duration="16869000" />
+      <workItem from="1650427736015" duration="4690000" />
+      <workItem from="1650618257476" duration="7270000" />
+      <workItem from="1650708873949" duration="11100000" />
+      <workItem from="1650882249512" duration="13196000" />
+      <workItem from="1651124803596" duration="10126000" />
+      <workItem from="1651221421585" duration="5704000" />
+      <workItem from="1651716614856" duration="3461000" />
+      <workItem from="1651891328996" duration="3281000" />
+      <workItem from="1651915031470" duration="2471000" />
+      <workItem from="1652339574663" duration="9494000" />
+      <workItem from="1652411588735" duration="515000" />
+      <workItem from="1652412429998" duration="7520000" />
+      <workItem from="1653392324807" duration="3140000" />
+      <workItem from="1654746424757" duration="15000" />
+      <workItem from="1655367645444" duration="2573000" />
+      <workItem from="1655706170345" duration="13776000" />
+      <workItem from="1656388729494" duration="3010000" />
+      <workItem from="1656487622036" duration="6086000" />
+      <workItem from="1657702663632" duration="5303000" />
+      <workItem from="1657721575147" duration="4532000" />
+      <workItem from="1658913824932" duration="4887000" />
+      <workItem from="1659061485379" duration="1433000" />
+      <workItem from="1659074916729" duration="663000" />
+      <workItem from="1659318351648" duration="1592000" />
+      <workItem from="1659404130677" duration="6242000" />
+      <workItem from="1659880784658" duration="1233000" />
+      <workItem from="1663828468437" duration="9000" />
+      <workItem from="1663839100881" duration="7474000" />
+      <workItem from="1663915529086" duration="8357000" />
+      <workItem from="1664156478257" duration="1273000" />
+      <workItem from="1664245307337" duration="1814000" />
+      <workItem from="1664285749911" duration="18608000" />
+      <workItem from="1664417362816" duration="8469000" />
+      <workItem from="1664503512160" duration="13062000" />
+      <workItem from="1664766311761" duration="594000" />
+      <workItem from="1665199349753" duration="2676000" />
+      <workItem from="1665219660206" duration="591000" />
+      <workItem from="1665279118275" duration="5075000" />
+      <workItem from="1665367535393" duration="1333000" />
+      <workItem from="1665451600534" duration="2587000" />
+      <workItem from="1665538331685" duration="2203000" />
+      <workItem from="1665711875475" duration="2796000" />
+      <workItem from="1665971232701" duration="849000" />
+      <workItem from="1665986971552" duration="1894000" />
+      <workItem from="1666169415708" duration="635000" />
+      <workItem from="1666319869618" duration="2659000" />
+      <workItem from="1666750958233" duration="4715000" />
+      <workItem from="1666923786727" duration="534000" />
+      <workItem from="1666954322223" duration="414000" />
+      <workItem from="1667211457389" duration="2076000" />
+      <workItem from="1667790209001" duration="2626000" />
+      <workItem from="1667962909750" duration="1583000" />
+      <workItem from="1667983686197" duration="7735000" />
+      <workItem from="1668043724307" duration="8253000" />
+      <workItem from="1668130245720" duration="7120000" />
+      <workItem from="1668389794724" duration="2117000" />
+      <workItem from="1668418733823" duration="16000" />
+      <workItem from="1668418771660" duration="43000" />
+      <workItem from="1668418841928" duration="152000" />
+      <workItem from="1668419022748" duration="7051000" />
+      <workItem from="1668569640958" duration="55000" />
+      <workItem from="1668569716007" duration="6142000" />
+      <workItem from="1668653804091" duration="1879000" />
+      <workItem from="1669795042278" duration="4554000" />
+      <workItem from="1669952045720" duration="1475000" />
+      <workItem from="1672900485479" duration="789000" />
+      <workItem from="1672985674759" duration="2932000" />
+      <workItem from="1672992386836" duration="3614000" />
+      <workItem from="1673209960935" duration="33000" />
+      <workItem from="1675134117659" duration="3285000" />
+      <workItem from="1675924828037" duration="646000" />
+      <workItem from="1675994681773" duration="29000" />
+      <workItem from="1675994785225" duration="1912000" />
+      <workItem from="1679885511635" duration="56000" />
+      <workItem from="1679885632520" duration="2560000" />
+      <workItem from="1682218967325" duration="324000" />
+      <workItem from="1682319583159" duration="8938000" />
+      <workItem from="1682386123376" duration="11047000" />
+      <workItem from="1682473342817" duration="1199000" />
+      <workItem from="1682563051796" duration="3660000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../.." />
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/upload-file-8801/src/main/java/com/example/uploadfile8801/oa/OAController.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/upload-file-8801/src/main/java/com/example/uploadfile8801/controller/SignUtil.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-validator-9990/src/main/java/com/example/springbootvalidator9990/controller/UserController.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

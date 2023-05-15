@@ -1,0 +1,47 @@
+<script>
+
+    AttachXFormValueChangeEventById("shj_cpy_jiaPhone", checkMbNo5);
+    function checkMbNo5(){
+        var mbReg=/^[0-9]{11}$/;
+        var mbNum = $("[name='extendDataFormInfo.value(shj_cpy_jiaPhone)']").val();
+        if (!mbReg.test(mbNum.replace(/(^\s*)|(\s*$)/g, ""))) {
+            alert("请输入正确手机号！");
+            $("[name='extendDataFormInfo.value(shj_cpy_jiaPhone)']").val("")
+            return;
+        }
+    }
+
+    AttachXFormValueChangeEventById("shj_cpy_yiPhone", checkMbNo6);
+    function checkMbNo6(){
+        var mbReg=/^[0-9]{11}$/;
+        var mbNum = $("[name='extendDataFormInfo.value(shj_cpy_yiPhone)']").val();
+        if (!mbReg.test(mbNum.replace(/(^\s*)|(\s*$)/g, ""))) {
+            alert("请输入正确手机号！");
+            $("[name='extendDataFormInfo.value(shj_cpy_yiPhone)']").val("")
+            return;
+        }
+    }
+
+    AttachXFormValueChangeEventById("shj_per_securityPhone", checkMbNo7);
+    function checkMbNo7(){
+        var mbReg=/^[0-9]{11}$/;
+        var mbNum = $("[name='extendDataFormInfo.value(shj_per_securityPhone)']").val();
+        if (!mbReg.test(mbNum.replace(/(^\s*)|(\s*$)/g, ""))) {
+            alert("请输入正确手机号！");
+            $("[name='extendDataFormInfo.value(shj_per_securityPhone)']").val("")
+            return;
+        }
+    }
+
+    AttachXFormValueChangeEventById("shj_cpy_securityPhone", checkMbNo8);
+    function checkMbNo8(){
+        var mbReg=/^[0-9]{11}$/;
+        var mbNum = $("[name='extendDataFormInfo.value(shj_cpy_securityPhone)']").val();
+        if (!mbReg.test(mbNum.replace(/(^\s*)|(\s*$)/g, ""))) {
+            alert("请输入正确手机号！");
+            $("[name='extendDataFormInfo.value(shj_cpy_securityPhone)']").val("")
+            return;
+        }
+    }
+
+</script>

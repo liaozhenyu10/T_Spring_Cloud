@@ -1,0 +1,45 @@
+server:
+  port: 8801
+
+spring:
+  application:
+    name: provider8801
+  rabbitmq:
+    host: 192.168.191.128
+    port: 5672
+    username: p8801
+    password: p8801
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: studyExchange
+          contentType: application/json
+
+#      binders: #在此处配置要绑定的rabbitmq的服务信息, Map<String, BinderProperties> binders
+#        defaultRabbit: #表示定义的名称，用于binding整合，BinderProperties
+#          type: rabbit #消息组件类型
+#          environment: #设置rabbitmq的相关环境配置，Map<String, Object>
+#            spring:
+#              rabbitmq:
+#                host: localhost
+#                port: 5672
+#                username: liaozhenyu
+#                password: 123
+#      bindings: #服务的整合处理，Map<String, BindingProperties>
+#        output: #这名字是一个通道的名称,BindingProperties
+#          destination: studyExchange #要使用的exchange名称定义
+#          contentType: application/json #设置消息类型
+#          binder: defaultRabbit
+
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+
+
+
