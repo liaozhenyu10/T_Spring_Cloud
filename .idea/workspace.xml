@@ -7,7 +7,9 @@
     <option name="showLiveBeansGraph" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0708ded0-1628-43c7-9aa3-71bfea4b226a" name="Default Changelist" comment="" />
+    <list default="true" id="0708ded0-1628-43c7-9aa3-71bfea4b226a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +90,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -106,6 +108,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="26mVbbqKlYQ71pOOENldgPLP5mp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -121,7 +126,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/codes/java/private-workspace/T_Spring_Cloud",
+    "last_opened_file_path": "E:/codes/java/mbss-workspace/mbss-inv",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -134,11 +139,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\codes\java\private-workspace\T_Spring_Cloud" />
       <recent name="E:\myWorkSpace\code\T_Spring_Cloud\aliwork-api-8088\src\main\resources" />
       <recent name="E:\myWorkSpace\code\T_Spring_Cloud\log4j2-9092\src\main\resources" />
       <recent name="E:\myWorkSpace\code\T_Spring_Cloud\spring-boot-validator-9990\src\main\resources" />
       <recent name="E:\myWorkSpace\code\T_Spring_Cloud\spring-boot-validator-9990\src\main\java\com\example\springbootvalidator9990\common" />
-      <recent name="E:\myWorkSpace\code\T_Spring_Cloud\upload-file-8801\src\main\java\com\example\uploadfile8801\oa" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\code\newWorkspace\T_Spring_Cloud\nacos-config8013\src\main\resources" />
@@ -161,7 +166,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaClient8001Application">
+  <component name="RunManager" selected="Spring Boot.NacosConfig8013Application">
     <configuration name="LocalDateTimeSerializerConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.demoapi8090.config.LocalDateTimeSerializerConfig" />
       <module name="demo-api-8090" />
@@ -724,6 +729,10 @@
       <workItem from="1682386123376" duration="11047000" />
       <workItem from="1682473342817" duration="1199000" />
       <workItem from="1682563051796" duration="3660000" />
+      <workItem from="1682663472040" duration="5617000" />
+      <workItem from="1684138511831" duration="4651000" />
+      <workItem from="1684208560820" duration="692000" />
+      <workItem from="1684909357884" duration="2528000" />
     </task>
     <servers />
   </component>
@@ -753,6 +762,11 @@
           <url>file://$PROJECT_DIR$/spring-boot-validator-9990/src/main/java/com/example/springbootvalidator9990/controller/UserController.java</url>
           <line>50</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/nacos-config8013/src/main/java/com/example/nacosconfig8013/controller/DemoController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
